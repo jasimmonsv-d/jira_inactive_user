@@ -1,0 +1,4 @@
+\o changes.psql
+select author from changegroup where CREATED >= '2020-02-01';
+\o users.jira.psql
+select (lower_user_name, email_address, active) from cwd_user;
