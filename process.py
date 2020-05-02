@@ -27,8 +27,7 @@ def main():
     for record in change_data:
         user_count = 0
         for user in user_data:
-            user = user.strip()
-            user = user.strip('()')
+            user = user.strip().strip('()')
             username, email, active = user.split(',')
             if record == username or active == '0':
                 del user_data[user_count]

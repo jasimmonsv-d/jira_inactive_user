@@ -15,10 +15,10 @@ and the `cwd_user` tables.
 save the results as required files for the Python3 script.
 
 ## Running script
-Ensuring that the files are the same name as required in the process.py 
+Ensuring that the files are the same name as required in the `process.py`
 file, running the script will quickly process the two files, resulting in
 a `final_results.txt` file which will contain all users who have not made
-changes to any Jira tickets in the days since the defined date from the 
+changes to any Jira tickets since the defined date from the 
 SQL query.
 
 ## Notes
