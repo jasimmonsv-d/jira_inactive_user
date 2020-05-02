@@ -9,6 +9,8 @@ a file with users who made no changes within that defined timeframe.
 * DB access
 
 ## Getting Database data
+[Jira Database Schema](https://developer.atlassian.com/server/jira/platform/database-schema)
+
 User will need to retrieve data from the Jira data base from the `changegroup`
 and the `cwd_user` tables.
 `psql_command.txt` file contains commands for psql to run the queries and
